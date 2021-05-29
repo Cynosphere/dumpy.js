@@ -2,7 +2,9 @@
 Create Among Us Dumpy GIFs in pure node.js
 
 ## Why?
-Because [this one](https://github.com/ThatOneCalculator/Among-Us-Dumpy-Gif-Maker) is horrible in how it works.
+Because [this one](https://github.com/ThatOneCalculator/Among-Us-Dumpy-Gif-Maker) was horrible in the beginning due to language mixing (library in Java, Discord bot in Python) and reliance on Imagemagick and palettes relying on separate images.
+
+This instead does image processing in memory, only relies on 6 images for the initial frames and can have a color palette defined without relying on files.
 
 ## Installation
 ```
